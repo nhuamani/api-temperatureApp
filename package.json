@@ -1,0 +1,24 @@
+{
+  "name": "api-temperatureapp",
+  "version": "1.0.0",
+  "description": "Proyecto para registro diario de temperatura de los empleados",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nhuamani/api-temperatureApp.git"
+  },
+  "keywords": [
+    "temperatura",
+    "empleados",
+    "salud"
+  ],
+  "author": "nhuamani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nhuamani/api-temperatureApp/issues"
+  },
+  "homepage": "https://github.com/nhuamani/api-temperatureApp#readme"
+}
