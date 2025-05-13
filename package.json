@@ -4,6 +4,7 @@
   "description": "Proyecto para registro diario de temperatura de los empleados",
   "main": "src/app.js",
   "scripts": {
+    "start": "node --env-file=.env --watch src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +21,10 @@
   "bugs": {
     "url": "https://github.com/nhuamani/api-temperatureApp/issues"
   },
-  "homepage": "https://github.com/nhuamani/api-temperatureApp#readme"
+  "homepage": "https://github.com/nhuamani/api-temperatureApp#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.14.1"
+  }
 }
